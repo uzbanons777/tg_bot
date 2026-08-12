@@ -1,7 +1,7 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 import logging
-
+import os
 # =======================================
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 WEBAPP_URL = "saytdi linki"
