@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 import logging
 
 # =======================================
-BOT_TOKEN = "botti tokeni"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 WEBAPP_URL = "saytdi linki"
 CHANNEL_ID = "@buyurtmalar_cam"
 # ================================================================
