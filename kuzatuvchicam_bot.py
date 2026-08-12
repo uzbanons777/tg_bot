@@ -1,9 +1,8 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 import logging
-import os
 # =======================================
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8392021656:AAGfNoHQuPuFZH1gHXGYnWSW37SmhnL-DRk")
 WEBAPP_URL = "saytdi linki"
 CHANNEL_ID = "@buyurtmalar_cam"
 # ================================================================
